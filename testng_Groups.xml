@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ATB11XAutomationPrograms">
+        <groups>
+            <run>
+                <include name="reg">
+                </include>
+                <exclude name="smoke">
+                </exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.thetestingacademy.EX05_TESTNG_Examples.Lab18_APITesting_GROUPS">
+
+            </class>
+        </classes>
+    </test>
+</suite>

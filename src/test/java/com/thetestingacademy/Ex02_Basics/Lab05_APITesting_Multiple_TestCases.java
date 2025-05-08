@@ -8,32 +8,32 @@ public class Lab05_APITesting_Multiple_TestCases {
         String pincode = "110048";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us")
-                .basePath("/IN/"+pincode)
+                    .baseUri("https://api.zippopotam.us")
+                    .basePath("/IN/"+pincode)
                 .when()
-                .get()
+                    .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
         System.out.println("------------------------------------");
         pincode = "@";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us")
-                .basePath("/IN/"+pincode)
+                    .baseUri("https://api.zippopotam.us")
+                    .basePath("/IN/"+pincode)
                 .when()
-                .get()
+                    .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
         System.out.println("------------------------------------");
         pincode = " ";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us")
-                .basePath("/USA/"+pincode)
+                    .baseUri("https://api.zippopotam.us")
+                    .basePath("/USA/"+pincode)
                 .when()
-                .get()
+                    .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
 
 
 
