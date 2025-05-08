@@ -1,4 +1,4 @@
-package com.thetestingacademy.EX04_RA_HTTPMethods.GET;
+package com.thetestingacademy.Ex04_RA_HTTPMethods.GET;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;

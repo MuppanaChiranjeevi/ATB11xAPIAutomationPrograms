@@ -1,4 +1,4 @@
-package com.thetestingacademy.EX04_RA_HTTPMethods.PUT;
+package com.thetestingacademy.Ex04_RA_HTTPMethods.PUT;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

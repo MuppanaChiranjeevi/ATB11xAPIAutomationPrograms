@@ -1,2 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Chiranjeevi/IdeaProjects/ATB11XAutomationPrograms"><classes><class name="com.thetestingacademy.EX04_RA_HTTPMethods.DELETE.Lab14_APITesting_DELETE_NONBDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.DELETE.Lab15_APITesting_DELETE_BDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.GET.Lab08_APITesting_GET_BDD"><methods><include name="test_GET_BDD_POSITIVE_TC1"/><include name="test_GET_BDD_NEGATIVE_TC2"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.GET.Lab09_APITesting_GET_NONBDD"><methods><include name="test_GET_NONBDD_POSITIVE_TC1"/><include name="test_GET_NONBDD_NEGATIVE_TC2"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.PATCH.Lab14_APITesting_PATCH_NONBDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.PATCH.Lab15_APITesting_PATCH_BDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.POST.Lab10_APITesting_POST_BDD"><methods><include name="test_POST_AUTH"/><include name="test_POST_AUTH_NoLogALL"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.POST.Lab11_APITesting_POST_NONBDD"><methods><include name="test_POST_NonBDDStyle_Create_Token"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.PUT.Lab12_APITesting_PUT_NONBDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX04_RA_HTTPMethods.PUT.Lab13_APITesting_PUT_BDD"><methods><include name="test_put_non_bdd"/></methods></class><class name="com.thetestingacademy.EX05_TESTNG_Examples.Lab16_APITesting_Annotate"><methods><include name="test_PUT"/></methods></class><class name="com.thetestingacademy.EX05_TESTNG_Examples.Lab17_APITesting_Priority"><methods><include name="t1"/><include name="t2"/><include name="t3"/><include name="t4"/></methods></class><class name="com.thetestingacademy.Ex03_TestNG_AllureReport.Lab06_APITesting_MultipleTC_TestNG"><methods><include name="test_GET_POSITIVE_TC1"/><include name="test_GET_POSITIVE_TC2"/><include name="test_GET_NEGATIVE_TC3"/><include name="test_GET_NEGATIVE_TC4"/></methods></class><class name="com.thetestingacademy.Ex03_TestNG_AllureReport.Lab07_APITesting_MultipleTC_TestNG"><methods><include name="test_GET_POSITIVE_TC1"/><include name="test_GET_POSITIVE_TC2"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Chiranjeevi/IdeaProjects/ATB11XAutomationPrograms">
+        <classes>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.DELETE.Lab14_APITesting_DELETE_NONBDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.DELETE.Lab15_APITesting_DELETE_BDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.GET.Lab08_APITesting_GET_BDD">
+                <methods>
+                    <include name="test_GET_BDD_POSITIVE_TC1"/>
+                    <include name="test_GET_BDD_NEGATIVE_TC2"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.GET.Lab09_APITesting_GET_NONBDD">
+                <methods>
+                    <include name="test_GET_NONBDD_POSITIVE_TC1"/>
+                    <include name="test_GET_NONBDD_NEGATIVE_TC2"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.PATCH.Lab14_APITesting_PATCH_NONBDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.PATCH.Lab15_APITesting_PATCH_BDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.POST.Lab10_APITesting_POST_BDD">
+                <methods>
+                    <include name="test_POST_AUTH"/>
+                    <include name="test_POST_AUTH_NoLogALL"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.POST.Lab11_APITesting_POST_NONBDD">
+                <methods>
+                    <include name="test_POST_NonBDDStyle_Create_Token"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.PUT.Lab12_APITesting_PUT_NONBDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex04_RA_HTTPMethods.PUT.Lab13_APITesting_PUT_BDD">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex05_TESTNG_Examples.Lab16_APITesting_Annotate">
+                <methods>
+                    <include name="test_PUT"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex05_TESTNG_Examples.Lab17_APITesting_Priority">
+                <methods>
+                    <include name="t1"/>
+                    <include name="t2"/>
+                    <include name="t3"/>
+                    <include name="t4"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex03_TestNG_AllureReport.Lab06_APITesting_MultipleTC_TestNG">
+                <methods>
+                    <include name="test_GET_POSITIVE_TC1"/>
+                    <include name="test_GET_POSITIVE_TC2"/>
+                    <include name="test_GET_NEGATIVE_TC3"/>
+                    <include name="test_GET_NEGATIVE_TC4"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.Ex03_TestNG_AllureReport.Lab07_APITesting_MultipleTC_TestNG">
+                <methods>
+                    <include name="test_GET_POSITIVE_TC1"/>
+                    <include name="test_GET_POSITIVE_TC2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
