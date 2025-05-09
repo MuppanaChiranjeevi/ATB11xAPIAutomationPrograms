@@ -1,0 +1,32 @@
+✅ TestNG – Manage the Test Case
+What it is: A testing framework inspired by JUnit, designed for Java.
+Main purpose: Organizes and manages test cases in a structured way.
+Key features:
+Supports annotations like @Test, @BeforeClass, @AfterMethod, etc., to control test flow.
+Allows grouping, prioritizing, and parameterizing of test cases.
+Generates detailed HTML reports of test results.
+Works well with automation tools like Selenium and Rest Assured.
+
+🛠️ Maven – Build, Deployment, Development, Keep Dependencies
+What it is: A build automation and project management tool for Java projects.
+Main purpose:
+Build the project (compile code, run tests).
+Manage dependencies through pom.xml (e.g., Rest Assured, TestNG).
+Deploy artifacts (e.g., JAR/WAR files).
+Keep the project structure consistent.
+Key features:
+Centralized dependency management.
+Standardized build process using plugins.
+Easy integration with CI/CD tools like Jenkins.
+
+🌐 Rest Assured – Make the HTTP Request
+What it is: A Java library for testing RESTful APIs.
+Main purpose: Automates sending HTTP requests (GET, POST, PUT, DELETE) and validating responses.
+Key features:
+Easy syntax to write and read API tests.
+Supports JSON and XML.
+Can validate response status, headers, and body content.
+Integrates well with TestNG and Maven for full test automation.
+
+
+

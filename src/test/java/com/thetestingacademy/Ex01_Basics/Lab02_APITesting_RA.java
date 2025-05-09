@@ -28,3 +28,23 @@ public class Lab02_APITesting_RA {
         // Headers, Cookies, Response Body, ...others.
     }
 }
+/*
+Full Breakdown of the Request:
+RestAssured.given() — Initializes the request and prepares the environment for the setup.
+
+.baseUri("https://api.zippopotam.us") — Specifies the base URL (https://api.zippopotam.us), which is common to all requests for the Zippopotam API.
+
+.basePath("/IN/" + pincode) — Appends the path for a specific endpoint. This uses the IN (India) country code and a dynamic pincode to construct the full path.
+
+.when() — Indicates that the next action will be to make the HTTP request.
+
+.get() — Sends the GET request to the constructed URL (https://api.zippopotam.us/IN/{pincode}).
+
+.then() — Marks the start of response validation.
+
+.log().all() — Logs all details of the request and the response for inspection.
+
+.statusCode(200) — Asserts that the HTTP response status code should be 200, meaning the request was successful.
+
+
+ */

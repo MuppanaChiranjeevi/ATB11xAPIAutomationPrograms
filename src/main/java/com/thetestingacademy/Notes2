@@ -1,0 +1,40 @@
+1. TestNG (Testing Next Generation)
+TestNG is a Java-based testing framework inspired by JUnit but with more powerful features. It is used to design and manage test cases in a structured and scalable way.
+
+Key Features:
+Supports annotations (e.g., @Test, @BeforeMethod, @AfterClass) to control test execution.
+
+Allows grouping, prioritization, parallel execution, and parameterization of tests.
+
+Supports test suites defined in XML files (testng.xml).
+
+Generates detailed HTML reports.
+
+Integrates well with Maven, IDEA/Eclipse, and CI tools like Jenkins.
+
+2. Maven
+Maven is a build automation and dependency management tool for Java projects. It simplifies project setup, build, and dependency handling.
+
+Key Features:
+Uses a pom.xml file to manage dependencies, plugins, and build settings.
+
+Automatically downloads libraries (e.g., TestNG, Rest Assured).
+
+Standardizes project structure.
+
+Integrates with CI/CD tools (Jenkins, GitHub Actions).
+
+Supports phases like compile, test, package, deploy.
+
+
+3. Rest Assured
+Rest Assured is a Java library for testing RESTful APIs. It simplifies HTTP request creation and response validation.
+
+Key Features:
+Easy-to-read syntax for sending requests and validating responses.
+
+Supports GET, POST, PUT, DELETE, etc.
+
+Integrates well with TestNG or JUnit.
+
+Supports JSON and XML validation, authentication, logging, and more.

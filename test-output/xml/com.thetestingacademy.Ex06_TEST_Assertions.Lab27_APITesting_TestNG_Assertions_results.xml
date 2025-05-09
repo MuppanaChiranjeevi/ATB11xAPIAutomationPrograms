@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB11XAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.024">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_softAssertExample"
+                time="0.024"
+                classname="com.thetestingacademy.Ex06_TEST_Assertions.Lab27_APITesting_TestNG_Assertions">
+            </testcase>
+</testsuite>

@@ -3,7 +3,7 @@ package com.thetestingacademy.Ex05_TESTNG_Examples;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Lab18_APITesting_GROUPS {
+public class Lab19_APITesting_GROUPS {
 
 
     @Test(groups = {"sanity", "reg"}, priority = 1)
