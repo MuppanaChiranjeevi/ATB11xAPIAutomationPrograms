@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB11XAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.755">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_create_booking"
+                time="4.755"
+                classname="com.thetestingacademy.Ex06_TEST_Assertions.Lab28_APITesting_AssertJ_Assertions">
+            </testcase>
+</testsuite>
