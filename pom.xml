@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.thetestingacademy</groupId>
-  <artifactId>ATB11XAutomationPrograms</artifactId>
+  <artifactId>ATB11XAPIAutomationPrograms</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
